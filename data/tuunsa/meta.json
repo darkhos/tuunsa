@@ -1,0 +1,638 @@
+{
+  "examTitle": "투자자산운용사 (Certified Investment Manager)",
+  "organizer": "금융투자협회 (KOFIA) 자격시험센터",
+  "examSpec": {
+    "totalQuestions": 100,
+    "timeLimitMinutes": 120,
+    "passCriteria": "응시과목별 정답비율 40% 이상 & 전 과목 총점 70점(70문항) 이상",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "1과목 금융상품 및 세제",
+        "questions": 20,
+        "cutoff": 8,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "id": 2,
+        "name": "2과목 투자운용 및 전략 II · 투자분석",
+        "questions": 30,
+        "cutoff": 12,
+        "days": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      },
+      {
+        "id": 3,
+        "name": "3과목 직무윤리·법규 · 투자운용 및 전략 I",
+        "questions": 50,
+        "cutoff": 20,
+        "days": [
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ]
+      }
+    ]
+  },
+  "counts": {
+    "days": 30,
+    "units": 16,
+    "chapters": 138,
+    "star3Chapters": 40,
+    "tables": 61,
+    "traps": 166,
+    "oxCards": 653,
+    "practiceQuestions": 1179,
+    "mockExams": 4,
+    "mockQuestions": 400,
+    "audioEpisodes": 12,
+    "bookQuestions": 351,
+    "questions": 1167
+  },
+  "days": [
+    {
+      "day": 1,
+      "subjectId": 1,
+      "title": "Day 1: 조세총론 · 국세기본법 · 소득세 체계",
+      "subtitle": "납세의무 성립·확정·소멸 및 거주자 과세원칙",
+      "examQuestions": 4,
+      "units": [
+        "세제관련 법규/세무전략"
+      ],
+      "audioBriefingUrl": "data/tuunsa/audio/day/day01.mp3"
+    },
+    {
+      "day": 2,
+      "subjectId": 1,
+      "title": "Day 2: 금융소득종합과세 · 양도·상속증여 · 절세전략",
+      "subtitle": "2,000만원 기준 비교과세 및 금융상품별 과세",
+      "examQuestions": 4,
+      "units": [
+        "세제관련 법규/세무전략"
+      ],
+      "audioBriefingUrl": "data/tuunsa/audio/day/day02.mp3"
+    },
+    {
+      "day": 3,
+      "subjectId": 1,
+      "title": "Day 3: 금융기관 분류 · 은행예금 · 신탁상품",
+      "subtitle": "예금자보호 5,000만원 및 특정금전신탁 핵심",
+      "examQuestions": 3,
+      "units": [
+        "금융상품"
+      ],
+      "audioBriefingUrl": "data/tuunsa/audio/day/day03.mp3"
+    },
+    {
+      "day": 4,
+      "subjectId": 1,
+      "title": "Day 4: 집합투자기구(펀드) 구조 · 종류 · 환매제도",
+      "subtitle": "MMF 운용제한 및 사모·공모펀드 비교",
+      "examQuestions": 3,
+      "units": [
+        "금융상품"
+      ],
+      "audioBriefingUrl": "data/tuunsa/audio/day/day04.mp3"
+    },
+    {
+      "day": 5,
+      "subjectId": 1,
+      "title": "Day 5: 파생결합증권(ELS·ELW·ETN) · 랩어카운트 · 보험",
+      "subtitle": "손익구조 그래프 및 변액보험·퇴직연금(DB/DC)",
+      "examQuestions": 3,
+      "units": [
+        "금융상품"
+      ],
+      "audioBriefingUrl": "data/tuunsa/audio/day/day05.mp3"
+    },
+    {
+      "day": 6,
+      "subjectId": 1,
+      "title": "Day 6: 부동산학 총론 · 부동산 시장·정책 · 투자분석",
+      "subtitle": "화폐의 시간가치 및 DCF(NPV·IRR) 수익성 분석",
+      "examQuestions": 2,
+      "units": [
+        "부동산관련 상품"
+      ],
+      "audioBriefingUrl": "data/tuunsa/audio/day/day06.mp3"
+    },
+    {
+      "day": 7,
+      "subjectId": 1,
+      "title": "Day 7: 부동산 금융(PF·ABS·MBS) · 리츠(REITs) · 부동산펀드",
+      "subtitle": "위탁관리·자기관리 리츠 비교 및 부동산 감정평가",
+      "examQuestions": 2,
+      "units": [
+        "부동산관련 상품"
+      ],
+      "audioBriefingUrl": "data/tuunsa/audio/day/day07.mp3"
+    },
+    {
+      "day": 8,
+      "subjectId": 2,
+      "title": "Day 8: 대안투자 총론 · 사모투자(PEF) · 벤처캐피탈(VC)",
+      "subtitle": "기관전용 사모펀드(GP·LP) 및 기업구조조정 기법",
+      "examQuestions": 2,
+      "units": [
+        "대안투자운용/투자전략"
+      ],
+      "audioBriefingUrl": "data/tuunsa/audio/day/day08.mp3"
+    },
+    {
+      "day": 9,
+      "subjectId": 2,
+      "title": "Day 9: 헤지펀드 운용전략 · 특별자산 · 원자재 · 구조화상품",
+      "subtitle": "롱숏·글로벌매크로·이벤트드리븐 및 CDO/CDS",
+      "examQuestions": 2,
+      "units": [
+        "대안투자운용/투자전략"
+      ],
+      "audioBriefingUrl": "data/tuunsa/audio/day/day09.mp3"
+    },
+    {
+      "day": 10,
+      "subjectId": 2,
+      "title": "Day 10: 해외증권투자 운용 · 환위험 헤지 · 국제분산투자",
+      "subtitle": "환율 표시법, 선물환·통화선물 헤지 및 DR(예탁증서)",
+      "examQuestions": 5,
+      "units": [
+        "해외증권투자운용/투자전략"
+      ],
+      "audioBriefingUrl": "data/tuunsa/audio/day/day10.mp3"
+    },
+    {
+      "day": 11,
+      "subjectId": 2,
+      "title": "Day 11: 화폐의 시간가치 · 재무제표 · 재무비율 분석",
+      "subtitle": "유동성·안정성·수익성·활동성·성장성 지표 및 유보율",
+      "examQuestions": 3,
+      "units": [
+        "투자분석기법"
+      ],
+      "audioBriefingUrl": "data/tuunsa/audio/day/day11.mp3"
+    },
+    {
+      "day": 12,
+      "subjectId": 2,
+      "title": "Day 12: 주식가치평가(DDM·PER·PBR·EVA) · 기업가치평가(DCF)",
+      "subtitle": "고든 정률성장모형, 잉여현금흐름(FCFF) 및 MVA",
+      "examQuestions": 3,
+      "units": [
+        "투자분석기법"
+      ],
+      "audioBriefingUrl": "data/tuunsa/audio/day/day12.mp3"
+    },
+    {
+      "day": 13,
+      "subjectId": 2,
+      "title": "Day 13: 경기분석(경기종합지수·BSI) · 산업분석 · 기술적 분석",
+      "subtitle": "선행·동행·후행지수, 마이클 포터 5요인 및 이동평균선",
+      "examQuestions": 3,
+      "units": [
+        "투자분석기법"
+      ],
+      "audioBriefingUrl": "data/tuunsa/audio/day/day13.mp3"
+    },
+    {
+      "day": 14,
+      "subjectId": 2,
+      "title": "Day 14: 기초 통계학 · 기대수익률·분산·공분산·상관계수",
+      "subtitle": "정규분포, 가설검정(제1종·제2종 오류) 및 회귀분석",
+      "examQuestions": 3,
+      "units": [
+        "투자분석기법"
+      ],
+      "audioBriefingUrl": "data/tuunsa/audio/day/day14.mp3"
+    },
+    {
+      "day": 15,
+      "subjectId": 2,
+      "title": "Day 15: 리스크관리 총론 · 시장리스크(VaR) · 신용/운영리스크",
+      "subtitle": "델타-노말·역사적·몬테카를로 VaR 및 백테스팅",
+      "examQuestions": 8,
+      "units": [
+        "리스크관리"
+      ],
+      "audioBriefingUrl": "data/tuunsa/audio/day/day15.mp3"
+    },
+    {
+      "day": 16,
+      "subjectId": 3,
+      "title": "Day 16: 직무윤리 서론 · 윤리강령 · 이해상충방지 · 내부통제",
+      "subtitle": "선관주의·충실의무, 정보차단벽(Chinese Wall) 및 컴플라이언스",
+      "examQuestions": 5,
+      "units": [
+        "직무윤리"
+      ],
+      "audioBriefingUrl": "data/tuunsa/audio/day/day16.mp3"
+    },
+    {
+      "day": 17,
+      "subjectId": 3,
+      "title": "Day 17: 자본시장법 총론 · 금융투자업(6대 업) · 금융투자상품",
+      "subtitle": "원본손실가능성(증권 vs 파생상품) 및 전문/일반투자자",
+      "examQuestions": 3,
+      "units": [
+        "자본시장 관련 법규"
+      ],
+      "audioBriefingUrl": "data/tuunsa/audio/day/day17.mp3"
+    },
+    {
+      "day": 18,
+      "subjectId": 3,
+      "title": "Day 18: 금융투자업 인가·등록 · 건전성 규제 · 영업행위 규칙",
+      "subtitle": "적합성·적정성 원칙, 설명의무 및 부당권유 금지",
+      "examQuestions": 3,
+      "units": [
+        "자본시장 관련 법규"
+      ],
+      "audioBriefingUrl": "data/tuunsa/audio/day/day18.mp3"
+    },
+    {
+      "day": 19,
+      "subjectId": 3,
+      "title": "Day 19: 집합투자(펀드 설정·환매·평가·판매) · 투자자문·일임·신탁",
+      "subtitle": "집합투자재산 평가위원회, 의결권 제한 및 신탁재산 제한",
+      "examQuestions": 3,
+      "units": [
+        "자본시장 관련 법규"
+      ],
+      "audioBriefingUrl": "data/tuunsa/audio/day/day19.mp3"
+    },
+    {
+      "day": 20,
+      "subjectId": 3,
+      "title": "Day 20: 불공정거래 규제 (미공개중요정보·시세조종·부정거래)",
+      "subtitle": "단기매매차익 반환, 대량보유보고(5% 룰) 및 공시제도",
+      "examQuestions": 3,
+      "units": [
+        "자본시장 관련 법규"
+      ],
+      "audioBriefingUrl": "data/tuunsa/audio/day/day20.mp3"
+    },
+    {
+      "day": 21,
+      "subjectId": 3,
+      "title": "Day 21: 한국금융투자협회 규정 (표준투자권유준칙 · 투자광고 · 공시)",
+      "subtitle": "파생상품 적격투자자 요건 및 투자광고 의무표시·금지사항",
+      "examQuestions": 3,
+      "units": [
+        "한국금융투자협회규정"
+      ],
+      "audioBriefingUrl": "data/tuunsa/audio/day/day21.mp3"
+    },
+    {
+      "day": 22,
+      "subjectId": 3,
+      "title": "Day 22: 주식시장 구조 · 매매체결제도 · 주식 기본적 분석",
+      "subtitle": "호가제도, 가격제한폭, 증거금 및 탑다운/바텀업 분석",
+      "examQuestions": 3,
+      "units": [
+        "주식투자운용/투자전략"
+      ],
+      "audioBriefingUrl": "data/tuunsa/audio/day/day22.mp3"
+    },
+    {
+      "day": 23,
+      "subjectId": 3,
+      "title": "Day 23: 주식 포트폴리오 운용전략 (소극적·적극적·스타일 투자)",
+      "subtitle": "인덱스펀드 추적오차, 가치주/성장주 및 자산배분 전략",
+      "examQuestions": 3,
+      "units": [
+        "주식투자운용/투자전략"
+      ],
+      "audioBriefingUrl": "data/tuunsa/audio/day/day23.mp3"
+    },
+    {
+      "day": 24,
+      "subjectId": 3,
+      "title": "Day 24: 채권의 기초 · 채권가격 결정 · 채권수익률 및 기간구조",
+      "subtitle": "만기수익률(YTM), 현물/선도이자율 및 수익률곡선 이론",
+      "examQuestions": 3,
+      "units": [
+        "채권투자운용/투자전략"
+      ],
+      "audioBriefingUrl": "data/tuunsa/audio/day/day24.mp3"
+    },
+    {
+      "day": 25,
+      "subjectId": 3,
+      "title": "Day 25: 채권 듀레이션 · 볼록성(Convexity) · 채권 운용전략",
+      "subtitle": "맥컬리/수정듀레이션 가격변동 계산 및 면역·바벨·사다리 전략",
+      "examQuestions": 3,
+      "units": [
+        "채권투자운용/투자전략"
+      ],
+      "audioBriefingUrl": "data/tuunsa/audio/day/day25.mp3"
+    },
+    {
+      "day": 26,
+      "subjectId": 3,
+      "title": "Day 26: 선물·선도거래 기초 · 주가지수선물 · 금리·통화선물 헤지",
+      "subtitle": "베이시스 위험, 최소분산헤지비율 및 선물 이론가격",
+      "examQuestions": 3,
+      "units": [
+        "파생상품투자운용/투자전략"
+      ],
+      "audioBriefingUrl": "data/tuunsa/audio/day/day26.mp3"
+    },
+    {
+      "day": 27,
+      "subjectId": 3,
+      "title": "Day 27: 옵션 기초 · 옵션 합성전략(스프레드·스트래들) · 가격결정모형",
+      "subtitle": "풋-콜 패리티, 이항모형·블랙숄즈 모형 및 그릭스(Greeks)",
+      "examQuestions": 3,
+      "units": [
+        "파생상품투자운용/투자전략"
+      ],
+      "audioBriefingUrl": "data/tuunsa/audio/day/day27.mp3"
+    },
+    {
+      "day": 28,
+      "subjectId": 3,
+      "title": "Day 28: 투자운용결과분석 (수익률 계산 · 위험조정성과 · 성과요인분해)",
+      "subtitle": "시간가중 vs 금액가중수익률, 샤프·트레이너·젠센알파·정보비율",
+      "examQuestions": 4,
+      "units": [
+        "투자운용결과분석"
+      ],
+      "audioBriefingUrl": "data/tuunsa/audio/day/day28.mp3"
+    },
+    {
+      "day": 29,
+      "subjectId": 3,
+      "title": "Day 29: 거시경제 분석 (국민소득 · 통화·재정정책 · IS-LM · 환율)",
+      "subtitle": "통화승수, 유동성함정, 구축효과 및 구매력평가설·이자율평가설",
+      "examQuestions": 4,
+      "units": [
+        "거시경제"
+      ],
+      "audioBriefingUrl": "data/tuunsa/audio/day/day29.mp3"
+    },
+    {
+      "day": 30,
+      "subjectId": 3,
+      "title": "Day 30: 분산투자기법 & 포트폴리오 이론 (마코위츠 · CAPM · APT)",
+      "subtitle": "효율적 투자선, 자본시장선(CML) vs 증권시장선(SML) 총정리",
+      "examQuestions": 5,
+      "units": [
+        "분산투자기법"
+      ],
+      "audioBriefingUrl": "data/tuunsa/audio/day/day30.mp3"
+    }
+  ],
+  "units": [
+    {
+      "unitId": "u01",
+      "subjectId": 1,
+      "subjectName": "1과목 금융상품 및 세제",
+      "unitName": "세제관련 법규/세무전략",
+      "examQuestions": 7,
+      "day": 1,
+      "audioEp": 1,
+      "unitTip": "7문항으로 1과목에서 금융상품(8문항) 다음으로 비중이 크다. 국세기본법(총칙 숫자)과 금융소득 과세(이자·배당·양도) 두 챕터에서 4~5문항을 확보한다는 생각으로 공부하자. 증권거래세와 상속·증여세는 세율·공제액 같은 숫자만 표로 정리하면 충분하다. 세무전략은 앞 챕터를 응용하는 수준이라 마지막에 훑어본다.",
+      "chapterCount": 7,
+      "star3Count": 2
+    },
+    {
+      "unitId": "u02",
+      "subjectId": 1,
+      "subjectName": "1과목 금융상품 및 세제",
+      "unitName": "금융상품",
+      "examQuestions": 8,
+      "day": 2,
+      "audioEp": 2,
+      "unitTip": "챕터는 16개인데 문항은 8개라서 넓게 얕게 나온다. 비교표로 만들기 좋은 ★★★ 챕터 5개(신탁 종류, 펀드, 기타 금융투자상품, ABS 기본개념, 퇴직연금)를 먼저 끝내자. 그다음 예금자보호 대상 여부를 상품별로 정리하면 예금·보험 챕터 문제까지 함께 대비된다.",
+      "chapterCount": 17,
+      "star3Count": 5
+    },
+    {
+      "unitId": "u03",
+      "subjectId": 1,
+      "subjectName": "1과목 금융상품 및 세제",
+      "unitName": "부동산관련 상품",
+      "examQuestions": 5,
+      "day": 3,
+      "audioEp": 3,
+      "unitTip": "5문항인데 챕터가 11개이다. 숫자 문제가 나오는 세 챕터(부동산 펀드, 투자가치 분석, 리츠법)를 먼저 확실히 하자. 그다음 가치평가 3방식과 부동산 특성만 정리하면 된다. 2과목 대안투자(부동산 투자)와 겹치는 내용이 많아 함께 보면 효율적이다.",
+      "chapterCount": 12,
+      "star3Count": 3
+    },
+    {
+      "unitId": "u04",
+      "subjectId": 2,
+      "subjectName": "2과목 투자운용 및 전략 II · 투자분석",
+      "unitName": "대안투자운용/투자전략",
+      "examQuestions": 5,
+      "day": 4,
+      "audioEp": null,
+      "unitTip": "5문항에 비해 분량이 많은 단원이다. 수험 자료들이 공통으로 짚는 **PEF·헤지펀드·신용파생상품(Credit Structure)** 세 덩어리를 먼저 끝내자. 헤지펀드는 전략 분류(차익거래형/이벤트드리븐/방향성)와 \"무엇을 사고 무엇을 공매도하는가\"를, 신용파생은 \"누가 위험을 넘기고 누가 프리미엄을 받는가\"를 정리하면 대부분 풀린다. 부동산·특별자산은 1과목 부동산 단원과 겹치므로 용어 확인 수준이면 충분하다.",
+      "chapterCount": 7,
+      "star3Count": 2
+    },
+    {
+      "unitId": "u05",
+      "subjectId": 2,
+      "subjectName": "2과목 투자운용 및 전략 II · 투자분석",
+      "unitName": "해외증권투자운용/투자전략",
+      "examQuestions": 5,
+      "day": 4,
+      "audioEp": null,
+      "unitTip": "수험 후기에서 \"상식적인 내용이 나오는 가장 쉬운 과목\"으로 꼽히는 단원이다. 시간을 많이 쓰지 말고 **국제 증권시장의 명칭 암기(외국채 이름, DR 종류, 미국 국채 구분)**를 확실히 한 뒤, 국제분산투자·환율 효과는 \"원화 수익률 = (1+현지수익률)(1+환율변동률) − 1 ≈ 현지수익률 + 환율변동률\"(원/외화 환율 기준) 공식과 상관관계 논리로 정리한다.",
+      "chapterCount": 4,
+      "star3Count": 1
+    },
+    {
+      "unitId": "u06",
+      "subjectId": 2,
+      "subjectName": "2과목 투자운용 및 전략 II · 투자분석",
+      "unitName": "투자분석기법",
+      "examQuestions": 12,
+      "day": 5,
+      "audioEp": null,
+      "unitTip": "2과목에서 문항이 가장 많은(12문항) 단원이다. ① **기본적 분석**(가치평가·재무비율·PER/PBR 분해) → ② **기술적 분석**(지표·엘리어트·패턴·캔들은 그림과 함께 암기) → ③ **산업분석**(이론 이름과 핵심 주장만 암기) 순으로 공부한다. 계산 문제는 정률성장모형, PER·PBR 분해, 재무비율, 레버리지도에서 주로 나오고, 기술적·산업분석은 \"알면 맞고 모르면 틀리는\" 개념 보기형이 많다.",
+      "chapterCount": 18,
+      "star3Count": 5
+    },
+    {
+      "unitId": "u07",
+      "subjectId": 2,
+      "subjectName": "2과목 투자운용 및 전략 II · 투자분석",
+      "unitName": "리스크관리",
+      "examQuestions": 8,
+      "day": 6,
+      "audioEp": null,
+      "unitTip": "8문항 중 다수가 **VaR 계산·VaR 측정방법 비교**에서 나온다. 신뢰수준 상수(1.65/2.33), 보유기간 √t 환산, 상관계수를 넣은 포트폴리오 VaR 세 가지를 손으로 여러 번 풀어 두자. 다음은 신용리스크의 **기대손실·부도확률 계산**과 장외파생상품 신용노출 개념. 파생상품투자권유자문인력 시험의 리스크관리와 공통 범위다.",
+      "chapterCount": 4,
+      "star3Count": 2
+    },
+    {
+      "unitId": "u08",
+      "subjectId": 3,
+      "subjectName": "3과목 직무윤리·법규 · 투자운용 및 전략 I",
+      "unitName": "직무윤리",
+      "examQuestions": 5,
+      "day": 7,
+      "audioEp": 4,
+      "unitTip": "직무윤리는 내용이 평이해 5문항 중 4~5개를 노려야 하는 득점 단원이다. 2장(금융투자업 직무윤리)이 대부분을 차지하므로 이해상충 처리 순서와 금융소비자보호 원칙(적합성·적정성·설명의무·부당권유 금지)을 먼저 잡고, 법규 단원의 금소법·불건전영업행위와 겹치는 내용은 함께 정리한다.",
+      "chapterCount": 4,
+      "star3Count": 1
+    },
+    {
+      "unitId": "u09",
+      "subjectId": 3,
+      "subjectName": "3과목 직무윤리·법규 · 투자운용 및 전략 I",
+      "unitName": "자본시장 관련 법규",
+      "examQuestions": 11,
+      "day": 8,
+      "audioEp": 5,
+      "unitTip": "문항 대비 범위가 가장 넓어 **과락 방지**가 1차 목표다. 수험 자료들은 공통적으로 펀드·자산운용 관련 출제비중이 높다고 안내하므로 5장·12장(집합투자)과 4장(매매·중개업자 영업행위)을 먼저 끝낸다. 그다음 2장(금융투자상품 분류)·15장(불공정거래)의 숫자와 구분을 암기하고, 공시·M&A(8~10장)는 숫자 위주로 정리한다. ★ 챕터는 키워드만 훑는다.",
+      "chapterCount": 18,
+      "star3Count": 6
+    },
+    {
+      "unitId": "u10",
+      "subjectId": 3,
+      "subjectName": "3과목 직무윤리·법규 · 투자운용 및 전략 I",
+      "unitName": "한국금융투자협회규정",
+      "examQuestions": 3,
+      "day": 8,
+      "audioEp": 6,
+      "unitTip": "3문항 중 대부분이 1장(영업 및 업무에 관한 규정)에서 나온다고 보고 1장을 먼저 끝낸다. 협회규정은 개정이 잦아 숫자가 바뀌기 쉬우므로, 시험 직전 최신 기본서·모의고사로 수치를 다시 확인하고 나머지 챕터는 개념 구분 위주로 본다.",
+      "chapterCount": 5,
+      "star3Count": 1
+    },
+    {
+      "unitId": "u11",
+      "subjectId": 3,
+      "subjectName": "3과목 직무윤리·법규 · 투자운용 및 전략 I",
+      "unitName": "주식투자운용/투자전략",
+      "examQuestions": 6,
+      "day": 9,
+      "audioEp": 7,
+      "unitTip": "6문항이지만 계산 비중이 낮고 개념형이 대부분이다. 기출복원에 반복 등장하는 **보험자산배분(보험전략과 위험회피 성향)**과 **패시브·액티브·스타일 운용**을 먼저 잡고, 전략적·전술적 자산배분은 둘을 **비교표**로 외운다. CPPI 계산 한 유형만 손에 익히면 충분하다.",
+      "chapterCount": 8,
+      "star3Count": 2
+    },
+    {
+      "unitId": "u12",
+      "subjectId": 3,
+      "subjectName": "3과목 직무윤리·법규 · 투자운용 및 전략 I",
+      "unitName": "채권투자운용/투자전략",
+      "examQuestions": 6,
+      "day": 10,
+      "audioEp": 8,
+      "unitTip": "합격 후기마다 \"듀레이션·컨벡시티만은 확실히\"라고 강조하고, 기출복원에는 **듀레이션 계산**과 **바벨형·채권교체 등 운용전략**이 회차마다 나온다. 그래서 5챕터 중 2개를 ★★★로 두었다. 듀레이션 공식과 성질 → 운용전략 비교표 → 말킬의 정리 순으로 공부한다.",
+      "chapterCount": 6,
+      "star3Count": 2
+    },
+    {
+      "unitId": "u13",
+      "subjectId": 3,
+      "subjectName": "3과목 직무윤리·법규 · 투자운용 및 전략 I",
+      "unitName": "파생상품투자운용/투자전략",
+      "examQuestions": 6,
+      "day": 11,
+      "audioEp": 9,
+      "unitTip": "기출복원에서 **스트래들·스트랭글·불 스프레드·방어적 풋**과 **풋-콜 패리티·옵션 가격 계산**이 회차마다 나온다. 합성전략 손익구조 그림 → 풋-콜 패리티 → 그릭스 부호 → 선물 보유비용모형 순으로 공부한다. 개념을 확실히 잡으면 계산을 놓쳐도 개념 문제로 점수를 지킬 수 있다.",
+      "chapterCount": 9,
+      "star3Count": 3
+    },
+    {
+      "unitId": "u14",
+      "subjectId": 3,
+      "subjectName": "3과목 직무윤리·법규 · 투자운용 및 전략 I",
+      "unitName": "투자운용결과분석",
+      "examQuestions": 4,
+      "day": 11,
+      "audioEp": 10,
+      "unitTip": "4문항 중 2문항 가까이가 **수익률 측정(시간가중·금액가중)**과 **위험조정 지표 계산·비교**에서 나온다. 샤프·트레이너·젠센·정보비율 공식을 분모 기준으로 구분해 외우고, 분산투자기법의 CAPM과 연결해서 공부하면 계산식이 쉽게 이해된다.",
+      "chapterCount": 7,
+      "star3Count": 2
+    },
+    {
+      "unitId": "u15",
+      "subjectId": 3,
+      "subjectName": "3과목 직무윤리·법규 · 투자운용 및 전략 I",
+      "unitName": "거시경제",
+      "examQuestions": 4,
+      "day": 12,
+      "audioEp": 11,
+      "unitTip": "4문항 중 **IS-LM**은 기출복원 4개 회차(26·28·29·31회)에 모두 나왔다. 정책 효과 표를 먼저 외우고, 두 번째 우선순위로 **기간구조 이론 3가지**(26·29·31회 출제)를 채권 단원과 묶어 정리한다. BSI 계산은 공식 하나로 끝난다.",
+      "chapterCount": 5,
+      "star3Count": 1
+    },
+    {
+      "unitId": "u16",
+      "subjectId": 3,
+      "subjectName": "3과목 직무윤리·법규 · 투자운용 및 전략 I",
+      "unitName": "분산투자기법",
+      "examQuestions": 5,
+      "day": 12,
+      "audioEp": 12,
+      "unitTip": "기출복원에서는 **CAPM(가정·SML 계산)**과 **포트폴리오 표준편차·공분산 계산**이 매 회차 나온다. CAPM은 투자운용결과분석의 트레이너·젠센 지표와 바로 연결되므로 먼저 공부한다. 이어서 단일지표모형 분산 분해와 APT의 CAPM 대비 장점을 비교표로 정리한다.",
+      "chapterCount": 7,
+      "star3Count": 2
+    }
+  ],
+  "sources": [
+    {
+      "name": "시대에듀 투자자산운용사 한권으로 끝내기 제1권·제2권 (PDF 교재)",
+      "url": "https://darkhos.github.io/tuunsa/",
+      "role": "전 과목 16단원 출제예상문제·계산특강·최종모의고사 351문항 및 해설 수록"
+    },
+    {
+      "name": "9bow/learn-invest-cert",
+      "url": "https://github.com/9bow/learn-invest-cert",
+      "role": "과목별 문제은행 · 심화 문제 · 실전 모의고사 1~3회"
+    },
+    {
+      "name": "k-haechan/investment-manager-summary",
+      "url": "https://github.com/k-haechan/investment-manager-summary",
+      "role": "16단원 138챕터 빈출도(★★★) 핵심요약 · 비교표 · 시험장 함정"
+    },
+    {
+      "name": "AhHyunKim/quizapp",
+      "url": "https://github.com/AhHyunKim/quizapp",
+      "role": "과목별 OX 및 빈칸 채우기 속전속결 암기 카드"
+    },
+    {
+      "name": "JOOWANKIM823/tunsa-600",
+      "url": "https://github.com/JOOWANKIM823/tunsa-600",
+      "role": "실전 기출특강(43회차 100문항) 모의고사 및 기출 변형 문제"
+    },
+    {
+      "name": "duk-men/tuunsa-audio",
+      "url": "https://github.com/duk-men/tuunsa-audio",
+      "role": "출퇴근길 핵심정리 오디오 강의 12편 (총 6시간 30분)"
+    }
+  ]
+}
